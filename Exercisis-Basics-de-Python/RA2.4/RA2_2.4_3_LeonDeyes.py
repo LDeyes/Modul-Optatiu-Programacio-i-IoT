@@ -1,0 +1,22 @@
+# Administració de Sistemes Informàtics en Xarxa
+# Autor: Leon Clark Deyes
+# Data: 15/11/2026
+# Versió: 1.0
+#
+# Descripció: Escriu una funció que reverteix una cadena
+# Especificacions d'entrada: Text introduit per l'usuari.
+
+# Variables 
+try:
+    cadena = input("Posa una cadena per revertir-la: ")
+    inversa = " "
+
+# Bucle que inverteix una cadena
+    for lletra in cadena:
+        inversa = cadena[::-1]
+
+    print(inversa)
+
+# Excepcions 
+except KeyboardInterrupt:
+    print("S'ha cancelat l'operació")
