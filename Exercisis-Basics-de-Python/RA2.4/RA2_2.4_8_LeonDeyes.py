@@ -9,7 +9,6 @@
 # Variables
 try:
     cadena = input("Posa una frase: ")
-    espai = " "
     cadena_nova = cadena.replace(" ", "")
 
 # Resultats
